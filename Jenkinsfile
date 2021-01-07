@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_REPO = "pouellette123/test"
+        DOCKER_HUB_REPO = "pouellette123/flask-docker-app-jenkins-pipeline"
         CONTAINER_NAME = "flask-container"
         STUB_VALUE = "200"
     }
